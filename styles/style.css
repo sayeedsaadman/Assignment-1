@@ -42,6 +42,8 @@ nav ul {
   font-weight: 600;
   justify-content: center;
   text-align: center;
+  display: inline-flex;
+  gap: 5px;
 }
 
 .primary-btn:hover {
@@ -107,10 +109,10 @@ color: #2a9958;
   text-align: center;
 }
 /* problem here */
-/* .fourth-section .primary-btn img{
+.fourth-section .primary-btn img{
   justify-content: center;
   text-align: center;
-} */
+}
 
 .secondary-btn{
   padding: 12px 16px;
@@ -126,4 +128,130 @@ color: #2a9958;
 }
 .secondary-btn:hover {
   background-color: #353535
+}
+
+.solution-section {
+  padding: 120px;
+}
+
+.solution-box{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 110px;
+}
+
+.solution-box .solution-img{
+  width: 600px;
+  height: 600px;
+}
+
+.solution-title{
+  font-size: 16px;
+  color: #2a9958;
+  margin-bottom: 15px;
+}
+
+.solution-content h2{
+  font-size: 48px;
+  font-weight: 700;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+.solution-paragraph{
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 40px;
+}
+
+.solution-list{
+  list-style: none;
+}
+
+.solution-list li{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.early-access-section{
+  padding: 120px;
+}
+
+.early-access-box{
+  background-color: aliceblue;
+  border-radius: 10px;
+  text-align: center;
+  padding: 60px;
+}
+
+.early-access-title{
+  font-size: 36px;
+  font-weight: 700;
+  color: #061829;
+  margin-bottom: 16px;
+}
+
+.early-access-paragraph{
+  font-size: 16px;
+  color: gray;
+  margin-bottom: 24px;
+}
+
+.early-access-paragraph-2{
+  font-size: 16px;
+  color: black;
+  margin-bottom: 40px;
+  margin-top: 16px;
+}
+
+.small{
+  font-size: 5px;
+  /* justify-content: center;
+  text-align: center; */
+  vertical-align: middle;
+}
+
+.footer {
+  background-color: #001931;
+  padding: 120px 120px 30px 120px;
+  color: #ffffff;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand-logo{
+  max-width: 150px;
+}
+
+.footer-social{
+  text-align: right;
+  margin-bottom: 80px;
+}
+
+.social-title{
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
+.social-icons{
+  display: flex;
+  gap: 16px;
+  border-radius: 50%;
+}
+
+.social-icons i{
+  color: white;
+}
+
+.footer-bottom-rights{
+  text-align: center;
 }

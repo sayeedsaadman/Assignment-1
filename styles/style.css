@@ -30,6 +30,7 @@ nav ul {
   list-style: none;
   gap: 32px;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .primary-btn {
